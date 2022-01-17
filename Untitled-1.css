@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    .outer{
+        height: 250vh;
+        overflow-x: hidden;
+    }
+    .inner{
+        margin: 50px auto;
+        width: 1000px;
+        height: 1000px;
+        background-image: url(https://cdn.discordapp.com/attachments/899934333362667520/932600574468309002/NFT-Singe-Jpeg-Dollars-1.jpeg); /* or url(https://www.....) if the image is online */
+    
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.4);
+    }
+    .inner h1{
+        width: 98%;
+        text-align: center;
+        font-size: 25px;
+        color: rgb(255, 0, 221);
+        border: 6px solid rgb(179, 35, 150);
+        top: 45%;
+        position: absolute;}
+    
